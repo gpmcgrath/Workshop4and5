@@ -10,14 +10,9 @@ export default class CommentThread extends React.Component {
             <li className="media">
               {child}
             </li>
-            )
-          }
-        )
-      }
-      <li className="media">
-        <CommentEntry />
-      </li>
-      </ul>
-    )
-  }
+          ) })}
+        <li className="media">
+          <CommentEntry onPost={this.props.onPost} />
+        </li> </ul>
+      ) }
 }
