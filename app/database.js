@@ -60,12 +60,17 @@ var initialData = {
           "contents": "hope everything is ok!",
           // The date the comment was posted.
           // 01/24/16 22:00 EST
-          "postDate": 1453690800000
+          "postDate": 1453690800000,
+          // A list of users that liked the comment. Here, "Someone Else" and "Another Person"
+          // liked this particular comment.
+          /* ****** I DID THIS ******** */
+          "likeCounter": []
         },
         {
           "author": 3,
           "contents": "sending hugs your way",
-          "postDate": 1453690800000
+          "postDate": 1453690800000,
+          "likeCounter":[]
         }
       ]
     }
